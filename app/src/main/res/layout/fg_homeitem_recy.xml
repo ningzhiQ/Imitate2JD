@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.jd.myjd.imitate2jd.widget.MyRecycle
+        android:id="@+id/indexitem_re_recy"
+        android:layout_width="381dp"
+        android:layout_height="456dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indexitem_retitl" />
+
+    <TextView
+        android:id="@+id/indexitem_retitl"
+        android:layout_width="387dp"
+        android:layout_height="49dp"
+        android:text="为你推荐"
+        android:gravity="center|left"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/indexitem_re_recy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

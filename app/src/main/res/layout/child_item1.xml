@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox
+        android:id="@+id/good_cart_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="27dp" />
+
+    <ImageButton
+        android:id="@+id/good_cart_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_alignTop="@+id/good_cart_title"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toEndOf="@+id/good_cart_rb"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/good_cart_rb" />
+
+    <TextView
+        android:id="@+id/good_cart_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="title" />
+
+    <TextView
+        android:id="@+id/good_cart_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0.0"
+        android:textColor="#f00"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="35dp"
+        />
+
+    <TextView
+        android:id="@+id/good_cart_price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/good_cart_jian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textSize="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="65dp"
+        />
+
+    <TextView
+        android:id="@+id/good_cart_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/good_cart_jia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/good_cart_delete"
+        android:layout_width="58dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/good_cart_price2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="131dp"
+        android:background="#f00"
+        android:text="删除" />
+</RelativeLayout>

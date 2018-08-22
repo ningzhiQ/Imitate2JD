@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/fragment_layout"
+        android:layout_weight="9"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:id="@+id/radio_group"
+        android:layout_weight="1">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/shouye_button"
+            android:button="@null"
+            android:layout_weight="1"
+            android:background="@drawable/home_background"
+            android:layout_gravity="center"
+             />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fenlei_button"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/classification_background" />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/faxian_button"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/find_background" />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/gouwuche_button"
+            android:button="@null"
+            android:layout_weight="1"
+            android:background="@drawable/shopping_background"
+            android:layout_gravity="center"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/wode_button"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/my_background" />
+    </RadioGroup>
+</LinearLayout>

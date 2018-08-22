@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购物车"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            />
+
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ExpandableListView
+        android:layout_marginTop="60dp"
+        android:id="@+id/e_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>
+
+
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:text="￥6.6"
+            android:textColor="#f00"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="#f00"
+            android:text="下单"
+
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
